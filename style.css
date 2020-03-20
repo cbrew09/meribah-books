@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 208, 139, 0.863);
+}
+
+h1{
+    font-family: "Helvetica", sans-serif;
+    color: #ffffff;
+}
