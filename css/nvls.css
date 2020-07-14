@@ -1,0 +1,82 @@
+.novels{
+    display: flex;
+    flex-direction: column;
+}
+
+.novel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #48A0C9;
+    margin-bottom: 25px;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+    color: white;
+    margin: 15px;
+    border-radius: 5%;
+    padding-top: 25px;
+}
+
+
+
+.novel img{
+    height: 150px;
+    width: 100px;
+}
+
+.novel-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.novel-info a{
+    color: white;
+}
+
+.dwnload_space{
+    display: flex;
+    flex-direction: row;
+}
+
+.dwnload{
+    font-size: 50px;
+    transition: font-size 0.5s;
+    margin-right: 7px;
+}
+
+.dwnload:hover{
+    font-size: 60px;
+}
+
+.eBook{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.eBook img{
+    width: 350px;
+    height: 500px;
+}
+
+.ebook-text{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width: 740px){
+    .novels{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ebook-text{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
